@@ -1,0 +1,16 @@
+.venv/
+.agents/
+.test-runtime/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+material/
+data/*.db
+data/*.log
+data/*.json
+data/metrics_log.csv
+data/raw_images/*
+data/cells/*
+data/exports/*
+data/model_checkpoints/*
+!data/**/.gitkeep

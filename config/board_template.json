@@ -1,0 +1,23 @@
+{
+  "name": "quadro-producao-v1",
+  "canonical_size": [1600, 1000],
+  "rows": 17,
+  "grid_bounds": [0.02, 0.255, 0.98, 0.895],
+  "column_bounds": [0.0, 0.095, 0.14, 0.19, 0.235, 0.51, 0.61, 0.68, 0.75, 0.84, 0.90, 0.95, 1.0],
+  "fields": [
+    {"name": "Horario", "kind": "text"},
+    {"name": "PlanejadaHora", "kind": "integer"},
+    {"name": "PlanejadaAcum", "kind": "integer"},
+    {"name": "RealizadaHora", "kind": "integer"},
+    {"name": "RealizadaAcum", "kind": "integer"},
+    {"name": "Motivo", "kind": "text"},
+    {"name": "OP", "kind": "text"},
+    {"name": "Codigo", "kind": "text"},
+    {"name": "Quem", "kind": "text"},
+    {"name": "Acao", "kind": "text"},
+    {"name": "OS_HM", "kind": "text"},
+    {"name": "Responsavel", "kind": "text"}
+  ],
+  "confidence_threshold": 0.70,
+  "crop_margin": 6
+}
